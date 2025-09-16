@@ -1,0 +1,119 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.3">
+  <diagram name="Trang-1" id="w61e7qspglGqkAj6Uygf">
+    <mxGraphModel dx="786" dy="497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OrL31-2U2leIT8M8zvBZ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OrL31-2U2leIT8M8zvBZ-2" target="OrL31-2U2leIT8M8zvBZ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OrL31-2U2leIT8M8zvBZ-2" value="Bắt đầu" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="682" y="250" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OrL31-2U2leIT8M8zvBZ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OrL31-2U2leIT8M8zvBZ-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="742" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OrL31-2U2leIT8M8zvBZ-4" value="Input: - Thẻ ATM&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; - Mã pin&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - Lệnh rút tiền&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;- Số tiền cần rút&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="642" y="390" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="OrL31-2U2leIT8M8zvBZ-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OrL31-2U2leIT8M8zvBZ-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="962" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OrL31-2U2leIT8M8zvBZ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OrL31-2U2leIT8M8zvBZ-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="522" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OrL31-2U2leIT8M8zvBZ-7" value="Kiểm tra mã pin" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="652" y="750" width="175" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OrL31-2U2leIT8M8zvBZ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OrL31-2U2leIT8M8zvBZ-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="739.5" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OrL31-2U2leIT8M8zvBZ-9" value="ATM đọc thông tin từ thẻ" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="634.5" y="560" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="OrL31-2U2leIT8M8zvBZ-10" value="Output:- Tiền mặt được phát ra&lt;div&gt;- Hóa đơn, in biên lai( nếu cần )&lt;/div&gt;&lt;div&gt;- Thông báo trên màn hình ( thành công hoặc thật bại )&lt;/div&gt;&lt;div&gt;- Cập nhật lại số dư tài khoản trong hệ thống&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1890" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OrL31-2U2leIT8M8zvBZ-11" value="Kết thúc" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="307.5" y="2090" width="125" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OrL31-2U2leIT8M8zvBZ-12" value="Sai" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="962" y="808" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OrL31-2U2leIT8M8zvBZ-13" value="Đúng" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="457" y="808" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OrL31-2U2leIT8M8zvBZ-14" value="Yêu cầu nhập lại hoặc khóa thẻ" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="882" y="930" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OrL31-2U2leIT8M8zvBZ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OrL31-2U2leIT8M8zvBZ-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="682" y="1090" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="690" y="990" />
+              <mxPoint x="690" y="1090" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OrL31-2U2leIT8M8zvBZ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OrL31-2U2leIT8M8zvBZ-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="362" y="1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OrL31-2U2leIT8M8zvBZ-17" value="Kiểm tra số dư tài khoản" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="442" y="930" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OrL31-2U2leIT8M8zvBZ-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OrL31-2U2leIT8M8zvBZ-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="1290.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OrL31-2U2leIT8M8zvBZ-19" value="Gửi yêu cầu rút tiền đến hệ thống ngân hàng trung tâm" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1090" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OrL31-2U2leIT8M8zvBZ-20" value="Báo lỗi" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="1090" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OrL31-2U2leIT8M8zvBZ-21" value="Đủ số dư" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="285" y="988" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OrL31-2U2leIT8M8zvBZ-22" value="Không đủ số dư" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="687" y="988" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OrL31-2U2leIT8M8zvBZ-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OrL31-2U2leIT8M8zvBZ-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="1490.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OrL31-2U2leIT8M8zvBZ-24" value="Ngân hàng xác nhận giao dịch thành công" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1290" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OrL31-2U2leIT8M8zvBZ-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OrL31-2U2leIT8M8zvBZ-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="1690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OrL31-2U2leIT8M8zvBZ-26" value="ATM điều khiển bộ phận xuất tiền mặt" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1490" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OrL31-2U2leIT8M8zvBZ-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OrL31-2U2leIT8M8zvBZ-28" target="OrL31-2U2leIT8M8zvBZ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OrL31-2U2leIT8M8zvBZ-28" value="Hế thống cập nhật lại số dư tài khoản" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1690" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="OrL31-2U2leIT8M8zvBZ-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OrL31-2U2leIT8M8zvBZ-10" target="OrL31-2U2leIT8M8zvBZ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
